@@ -3,15 +3,14 @@ let dispEL =document.getElementsByClassName("disp")
 player1 = Math.floor(Math.random()*3 +1)
 console.log(player1)
 
-function click() {
-    player1 = Math.floor(Math.random()*3 +1)
+function suffel() {
     console.log(player1)
     if (player1 == 1){
-        choose = "Rock"
+        dispEL.innertext ="Rock"
     } else if (player1 == 2) {
-        choose = "Paper"
+        dispEL.innertext = "Paper"
     } else {
-        choose = "Scissor"
+        dispEL.innertext = "Scissor"
     }
-    disp.Textcontent = choose
+
 }
